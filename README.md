@@ -41,10 +41,10 @@
 20. Como tendero deseo crear una campaña promocional de difusión a los clientes para mejorar el negocio. 
 21. Como tendero deseo que la orden del pedido lista genere una factura que sea impresa para entregársela al domiciliario y este al comprador.
 #### Priorizadas
-1.
-2.
-3.
-4.
+1. Como cliente deseo solicitar al tendero productos desde mi computador para facilitar mis compras.
+2. Como cliente deseo solicitar al tendero productos desde mi dispositivo móvil para facilitar mis compras.
+3. Como tendero deseo poder administrar la lista de los pedidos recibidos para poder organizar la tienda o negocio.
+4. Como cliente deseo que mi ubicación se obtenga automáticamente para facilitar el uso de la aplicación.
 ### Equipo de trabajo
 ---
 Integrante  | Código
