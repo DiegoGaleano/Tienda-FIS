@@ -45,6 +45,13 @@
 2. Como cliente deseo solicitar al tendero productos desde mi dispositivo móvil para facilitar mis compras.
 3. Como tendero deseo poder administrar la lista de los pedidos recibidos para poder organizar la tienda o negocio.
 4. Como cliente deseo que mi ubicación se obtenga automáticamente para facilitar el uso de la aplicación.
+### Mockups
+---
+![agregar_producto](https://github.com/DiegoGaleano/Tienda-FIS/blob/master/Mockups/agregar_producto.png)
+![carrito_web](https://github.com/DiegoGaleano/Tienda-FIS/blob/master/Mockups/carrito_web.png)
+![dir_entrega](https://github.com/DiegoGaleano/Tienda-FIS/blob/master/Mockups/dir_entrega.png)
+![inventario](https://github.com/DiegoGaleano/Tienda-FIS/blob/master/Mockups/inventario.png)
+![login](https://github.com/DiegoGaleano/Tienda-FIS/blob/master/Mockups/login.png)
 ### Equipo de trabajo
 ---
 Integrante  | Código
