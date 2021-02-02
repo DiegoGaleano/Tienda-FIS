@@ -41,10 +41,32 @@
 20. Como tendero deseo crear una campaña promocional de difusión a los clientes para mejorar el negocio. 
 21. Como tendero deseo que la orden del pedido lista genere una factura que sea impresa para entregársela al domiciliario y este al comprador.
 #### Priorizadas
-1.
-2.
-3.
-4.
+1. Como cliente deseo solicitar al tendero productos desde mi computador para facilitar mis compras.
+2. Como cliente deseo solicitar al tendero productos desde mi dispositivo móvil para facilitar mis compras.
+3. Como tendero deseo poder administrar la lista de los pedidos recibidos para poder organizar la tienda o negocio.
+4. Como cliente deseo que mi ubicación se obtenga automáticamente para facilitar el uso de la aplicación.
+### Mockups
+---
+![agregar_producto](https://github.com/DiegoGaleano/Tienda-FIS/blob/master/Mockups/agregar_producto.png)
+![carrito_web](https://github.com/DiegoGaleano/Tienda-FIS/blob/master/Mockups/carrito_web.png)
+![dir_entrega](https://github.com/DiegoGaleano/Tienda-FIS/blob/master/Mockups/dir_entrega.png)
+![inventario](https://github.com/DiegoGaleano/Tienda-FIS/blob/master/Mockups/inventario.png)
+![login](https://github.com/DiegoGaleano/Tienda-FIS/blob/master/Mockups/login.png)
+
+### Tareas
+---
+##### Historia de usuario a desarrollar y tareas
+Como cliente deseo solicitar al tendero productos desde mi computador para facilitar mis compras.
+
+1. Crear y llenar base de datos
+2. Crear página web
+3. Generar el servicio para enlazar base de datos con la página web.
+
+#### Asignación
+
+- Diego: Tarea 1
+- Cristhian: Tarea 3
+- Esteban: Tarea 2
 ### Equipo de trabajo
 ---
 Integrante  | Código
