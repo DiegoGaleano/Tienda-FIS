@@ -115,7 +115,7 @@ REST_FRAMEWORK = {
 # Depliegue Heroku
 
 import dj_database_url
-from decoupule import config
+from decouple import config
 
 DATABASES = {
     'default':fj_database_url.config(
