@@ -52,6 +52,21 @@
 ![dir_entrega](https://github.com/DiegoGaleano/Tienda-FIS/blob/master/Mockups/dir_entrega.png)
 ![inventario](https://github.com/DiegoGaleano/Tienda-FIS/blob/master/Mockups/inventario.png)
 ![login](https://github.com/DiegoGaleano/Tienda-FIS/blob/master/Mockups/login.png)
+
+### Tareas
+---
+##### Historia de usuario a desarrollar y tareas
+Como cliente deseo solicitar al tendero productos desde mi computador para facilitar mis compras.
+
+1. Crear y llenar base de datos
+2. Crear página web
+3. Generar el servicio para enlazar base de datos con la página web.
+
+#### Asignación
+
+- Diego: Tarea 1
+- Cristhian: Tarea 3
+- Esteban: Tarea 2
 ### Equipo de trabajo
 ---
 Integrante  | Código
