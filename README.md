@@ -6,6 +6,11 @@
 https://marketud.herokuapp.com/
 
 ---
+Usuario  | Contraseña
+------------- | -------------
+admin | ***********
+
+---
 #### Procesos
 - Venta producto
 - Gestión de los pedidos
