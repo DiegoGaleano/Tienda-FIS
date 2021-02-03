@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'b8kn3ez5e$5tae9c9g2j7)4t1#z#p3j0%nl(nd3clebuo7p0t_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -93,12 +93,13 @@ REST_FRAMEWORK = {
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+# Descomentar en desarrollo: base de datos de pruebas
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 # Estructura PostgreSQL
 # DATABASES = {
@@ -112,6 +113,9 @@ REST_FRAMEWORK = {
 #     }
 # }
 
+# --------------------------------------------------------- #
+# Comentar en desarrollo: base de datos de pruebas
+'''
 # Depliegue Heroku
 
 import dj_database_url
@@ -127,7 +131,8 @@ import django_heroku
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
-
+'''
+# --------------------------------------------------------- #
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
@@ -175,7 +180,8 @@ STATICFILES_FINDER = [
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 ]
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# Comentarear en desarrollo
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # This is now a string
 MEDIA_URL = '/media/'

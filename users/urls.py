@@ -28,7 +28,7 @@ router = routers.DefaultRouter()
 
 #API
 # En el router vamos añadiendo los endpoints a los viewsets
-router.register('list_user', viewsApi.ProfileViewSet)
+router.register('list', viewsApi.ProfileViewSet)
 
 
 urlpatterns = [

@@ -14,7 +14,13 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+
+# Products urls
+from products import views as productsviews
+
+# Base view api
+from products import viewsApi
 
 #API REST
 from rest_framework import routers
@@ -22,10 +28,10 @@ router = routers.DefaultRouter()
 
 #API
 # En el router vamos añadiendo los endpoints a los viewsets
-# router.register('list_post', viewsApi.PostViewSet)
+router.register('list', viewsApi.ProductViewSet)
+router.register('categories', viewsApi.CategoryViewSet)
 
 
 urlpatterns = [
-    # path('ej1/', posts_views.list_posts_ej1, name="post_ej"),
-    # path('api/', include(router.urls)),
+    path('api/', include(router.urls)),
 ]
