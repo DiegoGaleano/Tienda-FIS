@@ -94,12 +94,12 @@ REST_FRAMEWORK = {
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 # Descomentar en desarrollo: base de datos de pruebas
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 # Estructura PostgreSQL
 # DATABASES = {
@@ -115,7 +115,7 @@ REST_FRAMEWORK = {
 
 # --------------------------------------------------------- #
 # Comentar en desarrollo: base de datos de pruebas
-
+'''
 # Depliegue Heroku
 
 import dj_database_url
@@ -131,7 +131,7 @@ import django_heroku
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
-
+'''
 # --------------------------------------------------------- #
 
 # Password validation
@@ -181,7 +181,7 @@ STATICFILES_FINDER = [
 ]
 
 # Comentarear en desarrollo
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # This is now a string
 MEDIA_URL = '/media/'

@@ -26,7 +26,7 @@ from Market import views as local_views
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    path('', local_views.hello_world),
+    # path('', local_views.hello_world),
 
     # Users
     path('users/', include(('users.urls', 'users'), namespace="users")),
